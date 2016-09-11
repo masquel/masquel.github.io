@@ -30,20 +30,20 @@
 		})
 
 		$(document).on('click', function(event){
-			console.log($(event.target).closest('.select'));
 			if($(event.target).closest('.select').length) return;
 
 			var baseClass = "select";
 			var baseClassSelector = "."+baseClass;
 			var boxClass = baseClass+'__box';
 			var select = $(baseClassSelector);
-				if(!$('.select__input').value){
-					select.removeClass('form__control--filled');
-				}
+
+			if($(baseClassSelector+'__input').val() === ''){
+				$(baseClassSelector).removeClass('form__control--filled');
+			}
+
 			var box = $(baseClassSelector+'__box');
 			box.removeClass(boxClass+'--active');
 
-			console.log(box);
 
 		});
 	});
