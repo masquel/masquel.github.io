@@ -6,53 +6,72 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<title>FrontEnd Diary</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&amp;subset=cyrillic" rel="stylesheet">
 </head>
 <body>
-	<div class="container">
-		<form 
-			action="https://formspree.io/alex@fe-diary.ru" 
-			class="form form-horizontal" 
-			method="POST" 
-			onSubmit="yaCounter38732795.reachGoal('zakaz')"
-		>
-			<div class="form-group">
-				<label for="" class="control-label col-sm-2">Ваше имя:</label>
-				<div class="col-sm-10">
-					<input type="text" name="name" class="form-control" placeholder="Иванов Иван" required>
-				</div>
+	<div class="container form__container">
+		<div class="row">
+			<div class="col-xs-12 col-md-offset-1 col-md-10">
+				<form 
+					action="https://formspree.io/alex@fe-diary.ru" 
+					class="form form-horizontal" 
+					method="POST" 
+					onSubmit="yaCounter38732795.reachGoal('zakaz')"
+				>
+					<div class="text-center">
+						<h1 class="form__title">Отправить запрос</h1>
+					</div>
+					<div class="form-group form__group">
+						<div class="col-sm-12">
+							<input type="text" name="name" id="name" class="form__control form-control" required>
+							<label for="name" class="form__label control-label">Ваше имя</label>
+						</div>
+					</div>
+					<div class="form-group form__group">
+						<div class="col-sm-12">
+							<input type="email" name="_replyto" id="email" class="form__control form-control" required>
+							<label for="email" class="form__label control-label">Ваш e-mail</label>
+						</div>
+					</div>
+					<div class="form-group form__group">
+						<div class="col-sm-12">
+							<div class="select form__control form__control--select form-control" id="service">
+								<div class="select__current">
+									Выберите услугу
+								</div>
+								<div class="select__box">
+									<div class="select__item" data-value="Разработка/Доработка сайта">Разработка/Доработка сайта</div>
+									<div class="select__item" data-value="SEO/Контекстная реклама">SEO/Контекстная реклама</div>
+									<div class="select__item" data-value="Дизайн">Дизайн</div>	
+								</div>
+								<input type="hidden" name="service" class="select__input">
+							</div>
+							<label for="service" class="form__label control-label">Услуга</label>
+						</div>
+					</div>
+					<div class="form-group form__group">
+						<div class="col-sm-12">
+							<input type="text" name="message" id="message" class="form__control form-control">
+							<label for="message" class="form__label control-label">Ваше сообщение</label>
+						</div>
+					</div>
+					<div class="form-group form__group">
+						<div class="col-sm-12">
+							<button class="btn btn-lg btn-primary form__btn">Отправить запрос</button>
+						</div>
+					</div>
+				</form>
 			</div>
-			<div class="form-group">
-				<label for="" class="control-label col-sm-2">Ваш e-mail:</label>
-				<div class="col-sm-10">
-					<input type="email" name="_replyto" class="form-control" placeholder="test@mail.ru" required>
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="service" class="control-label col-sm-2">Услуга:</label>
-				<div class="col-sm-10">
-					<select name="service" class="form-control" id="service">
-						<option value="0" selected disabled>Выберите услугу</option>
-						<option value="Разработка/Доработка сайта">Разработка/Доработка сайта</option>
-						<option value="SEO/Контекстная реклама">SEO/Контекстная реклама</option>
-						<option value="Дизайн">Дизайн</option>
-					</select>
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="" class="control-label col-sm-2">Ваше сообщение:</label>
-				<div class="col-sm-10">
-					<textarea type="text" name="message" class="form-control" placeholder="Cообщение"></textarea>
-				</div>
-			</div>
-			<div class="form-group">
-				<div class="col-sm-offset-2 col-sm-10">
-					<button class="btn btn-default">Отправить запрос</button>
-				</div>
-			</div>
-		</form>
+		</div>	
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 	<!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter38732795 = new Ya.Metrika({ id:38732795, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/38732795" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
 </body>
 </html>
