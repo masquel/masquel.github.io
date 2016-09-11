@@ -36,8 +36,11 @@
 			var baseClass = "select";
 			var baseClassSelector = "."+baseClass;
 			var boxClass = baseClass+'__box';
-
-			var box = $(this).find(baseClassSelector+'__box');
+			var select = $(baseClassSelector);
+				if(!$('.select__input').value){
+					select.removeClass('form__control--filled');
+				}
+			var box = $(baseClassSelector+'__box');
 			box.removeClass(boxClass+'--active');
 
 			console.log(box);

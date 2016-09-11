@@ -12,7 +12,6 @@ body{
 }
 
 body:before{
-	content: '';
 	display: inline-block;
 	height: 100%;
 	width: 0%;
@@ -121,4 +120,10 @@ body:before{
 .select__item:hover{
 	color: #fff;
 	background-color: #b04b40;
+}
+
+@media (min-width 750px){
+	body:before{
+		content: '';
+	}
 }
