@@ -5,7 +5,7 @@
         "version": "1.0",
         "language": "ru"
     },
-    "thumbnail": "/journals_preview/2016.PNG",
+    "thumbnail": "/journals_preview/12_2016.jpg",
     "pages": [
         {
             "metadata": {
@@ -259,7 +259,7 @@
             "metadata": {
                 "version": "1.0",
                 "language": "ru",
-                "thumbnail": "/journals_preview/2016.PNG",
+                "thumbnail": "/journals_preview/12_2016.jpg",
                 "title": "Страница 2",
                 "order": 2
             },    
