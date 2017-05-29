@@ -1,0 +1,345 @@
+{
+    "year": 2016,
+    "month": 12,
+    "metadata": {
+        "version": "1.0",
+        "language": "ru"
+    },
+    "thumbnail": "/journals_preview/2016.PNG",
+    "pages": [
+        {
+            "metadata": {
+                "version": "1.0",
+                "language": "ru",
+                "title": "Страница 1",
+                "order": 1
+            },
+            "components": [{
+                "metadata": {
+                    "version": "1.0",
+                    "language": "ru"
+                },
+                "layout": {
+                    "column": 12
+                },
+                "role": "Article",
+                "components": [
+                    {
+                        "metadata": {
+                            "version": "1.0",
+                            "language": "ru"
+                        },
+                        "role": "Header",
+                        "components": [{
+                            "role": "Title",
+                            "level": 1,
+                            "content": "Test Article"
+                        }]
+                    },
+                    {
+                        "metadata": {
+                            "version": "1.0",
+                            "language": "ru"
+                        },
+                        "role": "Text",
+                        "layout": {
+                            "column": 6,
+                            "tablet": {
+                                "column": 6
+                            },
+                            "mobile": {
+                                "column": 12
+                            }
+                        },
+                        "content": "Column1: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non molestiae eos, perspiciatis nam sequi asperiores, magnam vitae pariatur ullam error quas quasi voluptatem ut aliquid illum facilis consectetur sint iste porro. Quibusdam dicta, alias molestiae! Libero, in aspernatur porro quaerat alias corrupti beatae reiciendis, facilis laudantium reprehenderit dicta at. Vitae, eum. Facere laudantium tempore sapiente, culpa amet sequi magni explicabo suscipit unde ut quaerat dolorem mollitia dolor illum alias ipsum sint placeat velit rem nihil voluptate reprehenderit, perferendis fugiat? In aperiam facilis esse explicabo quia maiores, excepturi deleniti provident quas, quam repudiandae fugit magnam, voluptates quasi et a nihil ab."
+                    },
+                    {
+                        "metadata": {
+                            "version": "1.0",
+                            "language": "ru"
+                        },
+                        "role": "Text",
+                        "layout": {
+                            "column": 6,
+                            "tablet": {
+                                "column": 6
+                            },
+                            "mobile": {
+                                "column": 12
+                            }
+                        },
+                        "content": "Column2: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, eum inventore voluptas molestias tenetur ducimus dignissimos accusantium excepturi harum culpa sequi suscipit libero optio eaque officia vero consectetur earum, dolorum cum dolore deserunt dicta incidunt! Veritatis sapiente consequatur suscipit atque vel, facere voluptatum voluptate eligendi iure temporibus, ipsam illo soluta ipsum accusamus ipsa blanditiis quas quo tempora! Atque iste, perferendis magnam amet sunt, iure hic. Vitae quia cumque dicta blanditiis voluptatum. Autem tenetur culpa deleniti laboriosam neque excepturi aperiam rem ipsa voluptatem quae ad velit fugiat qui eos, eligendi sapiente numquam inventore exercitationem? Quas consectetur molestias totam quidem inventore voluptas."
+                    }
+                ] 
+            },{
+                "metadata": {
+                    "version": "1.0",
+                    "language": "ru"
+                },
+                "layout": {
+                    "column": 12
+                },
+                "role": "Article",
+                "components": [
+                    {
+                        "metadata": {
+                            "version": "1.0",
+                            "language": "ru"
+                        },
+                        "role": "Header",
+                        "components": [{
+                            "role": "Title",
+                            "level": 1,
+                            "content": "Test Article"
+                        }]
+                    },
+                    {
+                        "metadata": {
+                            "version": "1.0",
+                            "language": "ru"
+                        },
+                        "role": "Text",
+                        "layout": {
+                            "column": 6,
+                            "tablet": {
+                                "column": 6
+                            },
+                            "mobile": {
+                                "column": 12
+                            }
+                        },
+                        "content": "Column1: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non molestiae eos, perspiciatis nam sequi asperiores, magnam vitae pariatur ullam error quas quasi voluptatem ut aliquid illum facilis consectetur sint iste porro. Quibusdam dicta, alias molestiae! Libero, in aspernatur porro quaerat alias corrupti beatae reiciendis, facilis laudantium reprehenderit dicta at. Vitae, eum. Facere laudantium tempore sapiente, culpa amet sequi magni explicabo suscipit unde ut quaerat dolorem mollitia dolor illum alias ipsum sint placeat velit rem nihil voluptate reprehenderit, perferendis fugiat? In aperiam facilis esse explicabo quia maiores, excepturi deleniti provident quas, quam repudiandae fugit magnam, voluptates quasi et a nihil ab."
+                    },
+                    {
+                        "metadata": {
+                            "version": "1.0",
+                            "language": "ru"
+                        },
+                        "role": "Text",
+                        "layout": {
+                            "column": 6,
+                            "tablet": {
+                                "column": 6
+                            },
+                            "mobile": {
+                                "column": 12
+                            }
+                        },
+                        "content": "Column2: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, eum inventore voluptas molestias tenetur ducimus dignissimos accusantium excepturi harum culpa sequi suscipit libero optio eaque officia vero consectetur earum, dolorum cum dolore deserunt dicta incidunt! Veritatis sapiente consequatur suscipit atque vel, facere voluptatum voluptate eligendi iure temporibus, ipsam illo soluta ipsum accusamus ipsa blanditiis quas quo tempora! Atque iste, perferendis magnam amet sunt, iure hic. Vitae quia cumque dicta blanditiis voluptatum. Autem tenetur culpa deleniti laboriosam neque excepturi aperiam rem ipsa voluptatem quae ad velit fugiat qui eos, eligendi sapiente numquam inventore exercitationem? Quas consectetur molestias totam quidem inventore voluptas."
+                    }
+                ] 
+            },{
+                "metadata": {
+                    "version": "1.0",
+                    "language": "ru"
+                },
+                "layout": {
+                    "column": 12
+                },
+                "role": "Article",
+                "components": [
+                    {
+                        "metadata": {
+                            "version": "1.0",
+                            "language": "ru"
+                        },
+                        "role": "Header",
+                        "components": [{
+                            "role": "Title",
+                            "level": 1,
+                            "content": "Test Article"
+                        }]
+                    },
+                    {
+                        "metadata": {
+                            "version": "1.0",
+                            "language": "ru"
+                        },
+                        "role": "Text",
+                        "layout": {
+                            "column": 6,
+                            "tablet": {
+                                "column": 6
+                            },
+                            "mobile": {
+                                "column": 12
+                            }
+                        },
+                        "content": "Column1: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non molestiae eos, perspiciatis nam sequi asperiores, magnam vitae pariatur ullam error quas quasi voluptatem ut aliquid illum facilis consectetur sint iste porro. Quibusdam dicta, alias molestiae! Libero, in aspernatur porro quaerat alias corrupti beatae reiciendis, facilis laudantium reprehenderit dicta at. Vitae, eum. Facere laudantium tempore sapiente, culpa amet sequi magni explicabo suscipit unde ut quaerat dolorem mollitia dolor illum alias ipsum sint placeat velit rem nihil voluptate reprehenderit, perferendis fugiat? In aperiam facilis esse explicabo quia maiores, excepturi deleniti provident quas, quam repudiandae fugit magnam, voluptates quasi et a nihil ab."
+                    },
+                    {
+                        "metadata": {
+                            "version": "1.0",
+                            "language": "ru"
+                        },
+                        "role": "Text",
+                        "layout": {
+                            "column": 6,
+                            "tablet": {
+                                "column": 6
+                            },
+                            "mobile": {
+                                "column": 12
+                            }
+                        },
+                        "content": "Column2: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, eum inventore voluptas molestias tenetur ducimus dignissimos accusantium excepturi harum culpa sequi suscipit libero optio eaque officia vero consectetur earum, dolorum cum dolore deserunt dicta incidunt! Veritatis sapiente consequatur suscipit atque vel, facere voluptatum voluptate eligendi iure temporibus, ipsam illo soluta ipsum accusamus ipsa blanditiis quas quo tempora! Atque iste, perferendis magnam amet sunt, iure hic. Vitae quia cumque dicta blanditiis voluptatum. Autem tenetur culpa deleniti laboriosam neque excepturi aperiam rem ipsa voluptatem quae ad velit fugiat qui eos, eligendi sapiente numquam inventore exercitationem? Quas consectetur molestias totam quidem inventore voluptas."
+                    }
+                ] 
+            },{
+                "metadata": {
+                    "version": "1.0",
+                    "language": "ru"
+                },
+                "layout": {
+                    "column": 6,
+                    "mobile": {
+                        "column": 12
+                    }
+                },
+                "role": "Article",
+                "components": [
+                    {
+                        "metadata": {
+                            "version": "1.0",
+                            "language": "ru"
+                        },
+                        "role": "Header",
+                        "components": [{
+                            "role": "Title",
+                            "level": 1,
+                            "content": "Test Article"
+                        }]
+                    },
+                    {
+                        "metadata": {
+                            "version": "1.0",
+                            "language": "ru"
+                        },
+                        "role": "Text",
+                        "layout": {
+                            "column": 6,
+                            "tablet": {
+                                "column": 6
+                            },
+                            "mobile": {
+                                "column": 12
+                            }
+                        },
+                        "content": "Column1: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non molestiae eos, perspiciatis nam sequi asperiores, magnam vitae pariatur ullam error quas quasi voluptatem ut aliquid illum facilis consectetur sint iste porro. Quibusdam dicta, alias molestiae! Libero, in aspernatur porro quaerat alias corrupti beatae reiciendis, facilis laudantium reprehenderit dicta at. Vitae, eum. Facere laudantium tempore sapiente, culpa amet sequi magni explicabo suscipit unde ut quaerat dolorem mollitia dolor illum alias ipsum sint placeat velit rem nihil voluptate reprehenderit, perferendis fugiat? In aperiam facilis esse explicabo quia maiores, excepturi deleniti provident quas, quam repudiandae fugit magnam, voluptates quasi et a nihil ab."
+                    },
+                    {
+                        "metadata": {
+                            "version": "1.0",
+                            "language": "ru"    
+                        },
+                        "role": "Caption",
+                        "content": "Lorem ipsum dolor sit amet."
+                    },
+                    {
+                        "metadata": {
+                            "version": "1.0",
+                            "language": "ru"
+                        },
+                        "role": "Text",
+                        "layout": {
+                            "column": 6,
+                            "tablet": {
+                                "column": 6
+                            },
+                            "mobile": {
+                                "column": 12
+                            }
+                        },
+                        "content": "Column2: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, eum inventore voluptas molestias tenetur ducimus dignissimos accusantium excepturi harum culpa sequi suscipit libero optio eaque officia vero consectetur earum, dolorum cum dolore deserunt dicta incidunt! Veritatis sapiente consequatur suscipit atque vel, facere voluptatum voluptate eligendi iure temporibus, ipsam illo soluta ipsum accusamus ipsa blanditiis quas quo tempora! Atque iste, perferendis magnam amet sunt, iure hic. Vitae quia cumque dicta blanditiis voluptatum. Autem tenetur culpa deleniti laboriosam neque excepturi aperiam rem ipsa voluptatem quae ad velit fugiat qui eos, eligendi sapiente numquam inventore exercitationem? Quas consectetur molestias totam quidem inventore voluptas."
+                    }
+                ] 
+            }]
+        },
+        {
+            "metadata": {
+                "version": "1.0",
+                "language": "ru",
+                "thumbnail": "/journals_preview/2016.PNG",
+                "title": "Страница 2",
+                "order": 2
+            },    
+            "components": [{
+                "metadata": {
+                    "version": "1.0",
+                    "language": "ru"
+                },
+                "layout": {
+                    "column": 6,
+                    "mobile": {
+                        "column": 12
+                    }
+                },
+                "role": "Article",
+                "components": [
+                    {
+                        "metadata": {
+                            "version": "1.0",
+                            "language": "ru"
+                        },
+                        "role": "Header",
+                        "components": [{
+                            "role": "Title",
+                            "level": 1,
+                            "content": "Test Article"
+                        }]
+                    },
+                    {
+                        "metadata": {
+                            "version": "1.0",
+                            "language": "ru"
+                        },
+                        "role": "Image",
+                        "layout": {
+                            "column": 12
+                        },
+                        "src": "/journals/2016/12/assets/page2-picture1.jpg",
+                        "size": {
+                            "width": "700",
+                            "height": "300"
+                        },
+                        "alt": "Тестовое изображение"
+                    },
+                    {
+                        "metadata": {
+                            "version": "1.0",
+                            "language": "ru"
+                        },
+                        "role": "Text",
+                        "layout": {
+                            "column": 6,
+                            "tablet": {
+                                "column": 6
+                            },
+                            "mobile": {
+                                "column": 12
+                            }
+                        },
+                        "content": "Column1: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non molestiae eos, perspiciatis nam sequi asperiores, magnam vitae pariatur ullam error quas quasi voluptatem ut aliquid illum facilis consectetur sint iste porro. Quibusdam dicta, alias molestiae! Libero, in aspernatur porro quaerat alias corrupti beatae reiciendis, facilis laudantium reprehenderit dicta at. Vitae, eum. Facere laudantium tempore sapiente, culpa amet sequi magni explicabo suscipit unde ut quaerat dolorem mollitia dolor illum alias ipsum sint placeat velit rem nihil voluptate reprehenderit, perferendis fugiat? In aperiam facilis esse explicabo quia maiores, excepturi deleniti provident quas, quam repudiandae fugit magnam, voluptates quasi et a nihil ab."
+                    },
+                    {
+                        "metadata": {
+                            "version": "1.0",
+                            "language": "ru"
+                        },
+                        "role": "Text",
+                        "layout": {
+                            "column": 6,
+                            "tablet": {
+                                "column": 6
+                            },
+                            "mobile": {
+                                "column": 12
+                            }
+                        },
+                        "content": "Column2: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, eum inventore voluptas molestias tenetur ducimus dignissimos accusantium excepturi harum culpa sequi suscipit libero optio eaque officia vero consectetur earum, dolorum cum dolore deserunt dicta incidunt! Veritatis sapiente consequatur suscipit atque vel, facere voluptatum voluptate eligendi iure temporibus, ipsam illo soluta ipsum accusamus ipsa blanditiis quas quo tempora! Atque iste, perferendis magnam amet sunt, iure hic. Vitae quia cumque dicta blanditiis voluptatum. Autem tenetur culpa deleniti laboriosam neque excepturi aperiam rem ipsa voluptatem quae ad velit fugiat qui eos, eligendi sapiente numquam inventore exercitationem? Quas consectetur molestias totam quidem inventore voluptas."
+                    }
+                ] 
+            }]
+        }
+    ]
+}
